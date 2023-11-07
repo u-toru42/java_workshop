@@ -1,13 +1,16 @@
 public class Main {
     public static void main(String[] args) {
         String t = "This is text";
-        System.out.println("This is text");
+        char c = 'A';
+        int i = 53;
+        float f = 23.08f;
+        double d = 1.97;
+        boolean b = true;
         System.out.println(t);
-
-        System.out.println("A");
-        System.out.println(53);
-        System.out.println(23.08f);
-        System.out.println(1.97);
-        System.out.println(true);
+        System.out.println(c);
+        System.out.println(i);
+        System.out.println(f);
+        System.out.println(d);
+        System.out.println(b);
     }
 }
